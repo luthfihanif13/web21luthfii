@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section id="navbar">
+        <div class="navbar">
+            <div class="container">
+                <center>
+                    <h2>Selamat datang di Luthfish Market</h2>
+                    <hr>
+                    <p>Silahkan Mengisi form pembelian terlebih dahulu untuk pengiriman Ikan <br> data anda 100% aman bersama kami.</p>
+                </center>
+            </div>
+        </div>
+    </section>
+    <!-- form registrasi -->
+    <center>
+        <form action="datapelanggan.php" method="POST">
+            <h3>Form Register</h3>
+            <table border="1" cellpadding="7"> 
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="Nama" placeholder="Nama Lengkap"></td>
+                </tr>
+                <br>
+                <br>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="Email" placeholder="Email"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td>Nomor HP</td>
+                    <td><input type="number" name="Nomor HP" placeholder="Nomor HP"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td>Tanggal Pengiriman</td>
+                    <td><input type="date" name="Tanggal" placeholder="Tanggal Pengiriman"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td>Alamat</td>
+                    <td type="textarea" name="Alamat"><textarea></textarea></td>
+                </tr>
+                <td><input type="submit" value="Simpan"></td>
+                
+            </table>
+        </form>
+        <!-- akhir form -->
+    </center>
+    <section class="footer">
+        <div class="footer">
+            <b>
+                <p>Copyright &copy; 2022 Luthfish Market</p>
+            </b>
+        </div>
+    </section>
+    <!-- kasih background foto ikannya di formnya -->
+</body>
+</html>
